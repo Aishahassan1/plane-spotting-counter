@@ -72,8 +72,6 @@ h3 {
     display: inline-block;
     justify-content: space-between;
     margin: 20px;
-    overflow-x: hidden;
-    overflow-y: scroll;
   }
 
   .reset-btn {

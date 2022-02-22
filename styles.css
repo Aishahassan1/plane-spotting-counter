@@ -70,9 +70,8 @@ h3 {
 @media only screen and (max-width: 1000px) {
   #card-container {
     display: inline-block;
-    flex-wrap: wrap;
     justify-content: space-between;
-    margin: 40px;
+    margin: 20px;
     overflow-x: hidden;
   }
 

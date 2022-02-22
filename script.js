@@ -11,28 +11,29 @@ let countd = 0
 
 function btnone() {
 counta += 1
-counterElA.textContent = counta 
+counterElA.textContent = 'Count: ' + counta 
 }
 
 function btntwo() {
     countb += 1
-    counterElB.textContent = countb
+    counterElB.textContent = 'Count: ' +countb
 }
 
 function btnthree() {
     countc += 1
-    counterElC.textContent = countc
+    counterElC.textContent = 'Count: ' +countc
 }
 
 function btnfour() {
     countd += 1
-    counterElD.textContent = countd
+    counterElD.textContent = 'Count: ' +countd
 }
 
 function reset() {
-    counterElA.textContent = 0
-    counterElB.textContent = 0
-    counterElC.textContent = 0
-    counterElD.textContent = 0
+    let countStr = 'Count: '
+    counterElA.textContent = countStr + 0
+    counterElB.textContent = countStr + 0
+    counterElC.textContent = countStr + 0
+    counterElD.textContent = countStr + 0
     count = 0
 }

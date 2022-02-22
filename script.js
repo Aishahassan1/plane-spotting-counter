@@ -32,8 +32,12 @@ function btnfour() {
 function reset() {
     let countStr = 'Count: '
     counterElA.textContent = countStr + 0
+    counta = 0
     counterElB.textContent = countStr + 0
+    countb = 0
     counterElC.textContent = countStr + 0
+    countc = 0
     counterElD.textContent = countStr + 0
-    count = 0
+    countd = 0
+
 }

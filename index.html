@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,300;1,800&family=Raleway:wght@300;600;900&display=swap" rel="stylesheet">
+    <title>Plane Spotting Counter</title>
+</head>
+<body>
+    <div>
+        <h1>Plane Spotting Counter</h1>
+    </div>
+    <div id="card-container">
+        <div id="card">
+            <img src="https://www.aerotime.aero/aviation-blog/wp-content/uploads/2016/03/Emirates-A380-Dual-Class-Configuration-1024x605.jpg" 
+            alt="airbus-a380" 
+            width="250px" 
+            height="150px">
+            <h3>Airbus A380</h3>
+            <button onclick="btnone()">Increment</button>
+            <h4 class="count" id="count1">Count:</h4>
+            <hr>
+            <p>The airbus A380 is the only full-length double decker passenger aircraft ever built.</p>
+
+        </div>
+
+            <div id="card">
+                <img src="https://www.aerospace-technology.com/wp-content/uploads/sites/15/2020/12/Boeing.png" 
+                alt="boeing-787"
+                width="250px" 
+                height="150px">
+                <h3>Boeing 787 Dreamliner</h3>
+                <button onclick="btntwo()">Increment</button>
+                <h4 class="count" id="count2">Count:</h4>
+                <hr>
+                <p>One of the most unique things about the 787 is its raked wingtip, where the wing sweeps upwards at the end.</p>
+            </div>
+
+            <div id="card">
+                <img src="https://cloudfront-us-east-2.images.arcpublishing.com/reuters/GKVM6R5DPFJTZPGLYWF4IGQJUI.jpg" 
+                alt="airbus-a350"
+                width="250px" 
+                height="150px">
+                <h3>Airbus A350</h3>
+                <button onclick="btnthree()">Increment</button>
+                <h4 class="count" id="count3">Count:</h4>
+                <hr>
+                <p>The first large commercial aircraft to be constructed extensively from carbon fibre reinforced polymer.</p>
+            </div>
+
+            <div id="card">
+                <img src="https://i.insider.com/5e7e6f3c487c22268335fe84?width=1136&format=jpeg" 
+                alt="boeing-747-8i"
+                width="250px" 
+                height="150px">
+                <h3>Boeing 747-8I</h3>
+                <button onclick="btnfour()">Increment</button>
+                <h4 class="count" id="count4">Count:</h4>
+                <hr>
+                <p>A wide-body airliner developed by Boeing Commercial Airplanes, the largest variant of the 747.</p>
+            </div>
+            <div>
+            <button class="reset-btn" onclick="reset()">Reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -13,18 +13,19 @@ body {
 }
 
 h1 {
-  margin: 15px;
+  margin: 10px;
   font-weight: 600;
 }
 
 #card-container {
   display: flex;
-  justify-content: space-between;
-  margin: 40px;
+  justify-content: space-around;
+  position: relative;
+  width: 100vw;
 }
 
 img {
-  margin: 10px;
+  margin: 5px;
 }
 
 button {
@@ -40,8 +41,10 @@ button {
   height: 40px;
   width: 55px;
   position: absolute;
-  bottom: -75px;
-  right: 500px;
+  left: 50%;
+  bottom: -20%;
+  margin-left: -50px;
+  margin-bottom: 40px;
   background-color: brown;
 }
 
@@ -56,14 +59,31 @@ p {
   padding: 15px;
 }
 
-#card-container {
-  position: relative;
-}
-
 hr {
   margin: 20px;
 }
 
 h3 {
   font-weight: 600;
+}
+
+@media only screen and (max-width: 1000px) {
+  #card-container {
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 40px;
+    overflow-x: hidden;
+  }
+
+  .reset-btn {
+    height: 40px;
+    width: 55px;
+    position: absolute;
+    left: 50%;
+    bottom: -20%;
+    margin-left: -50px;
+    margin-bottom: 200px;
+    background-color: brown;
+  }
 }
